@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="assets\css\style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto:100|Source+Code+Pro:200&display=swap"
+    rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <div class="page-container">
+    <div class="background"></div>
+    <div class="content-wrap">
+      <div class="headercontainer">
+        <header>
+          <nav>
+            <div class="h1container">
+              <div class="h1text">Amanda Kunz</div>
+            </div>
+            <div class="sitenav">
+              <button class="navbutton"><a class="navlinks" href="index.html">About</a></button>
+              <button class="navbutton"><a class="navlinks" href="portfolio.html">Portfolio</a></button>
+              <button class="navbutton"><a class="navlinks" href="contact.html">Contact</a></button>
+            </div>
+          </nav>
+        </header>
+      </div>
+      <div class="contentbox" id="contactmediabox">
+        <div class="contactform">
+          <h2 class="contentheader" id="contactheader">Contact</h2>
+          <form action="https://formspree.io/amanda.m.kunz@gmail.com.tld" method="POST">
+            <div class="labelcontainer">
+              <label class="contact_label">Name</label>
+              <input class="contactfield" type="text" name="name">
+            </div>
+            <div class="labelcontainer">
+              <label class="contact_label">Email</label>
+              <input class="contactfield" type="email" name="_replyto">
+            </div>
+            <div class="labelcontainer">
+              <label class="contact_label">Message</label>
+              <textarea class="contactfield" name="message" placeholder="Write something.."
+                style="height:200px"></textarea>
+            </div>
+            <input class="contactsend" type="submit" value="Send">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class=footer></div>
+  </div>
+</body>
